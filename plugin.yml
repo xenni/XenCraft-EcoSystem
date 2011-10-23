@@ -1,0 +1,84 @@
+name: EcoSystem
+version: 1.0.1-alpha
+author: Xenni (xennitalonflame@gmail.com)
+
+main: me.xenni.plugins.xencraft.ecosystem.XenCraftEcoSystemPlugin
+
+depend: [XenCraftCore]
+
+permissions:
+    xencraft.eco.admin.managewallets:
+        description: Allows you to manage the contents of any wallet.
+        default: op
+    xencraft.eco.admin.blockmanagewallet:
+        description: >
+            Prevents the managing of the contents of your wallet in a negative way (such as removing money).
+            You can still manage your own wallet unrestricted, if you have the permission to do so.
+        default: op
+    xencraft.eco.admin.bypassblockmanagewallet:
+        description: Allows you to bypass permission 'xencraft.eco.admin.blockmanagewallet'.
+    xencraft.eco.tradewalletanywhere:
+        description: Allows you to trade the contents of your wallet with other players regardless of distance.
+        default: op
+    xencraft.eco.appraise:
+        description: Allows you to determine the worth of various item sets.
+        default: true  
+    xencraft.eco.checkwallet:
+        description: Allows you to check your wallet's contents.
+        default: true
+    xencraft.eco.tradewallet:
+        description: Allows you to trade the contents of your wallet with other players.
+        default: true    
+commands:
+    ecoinfo:
+        description: Displays basic information about the server's economy, such as the available Money Systems.
+        usage: "usage: /<command>"
+    wallet:
+        description: Displays the contents of your wallet.
+        permission: xencraft.eco.checkwallet
+        usage: "usage: /<command> (<MoneySystem>)"
+        alias: ["mywallet", "ecomywallet"]
+    pay:
+        descripton: Pays another player from your wallet.
+        permission: xencraft.eco.tradewallet
+        usage: "usage: /<command> <Player> <Amount> (<MoneySystem>)"
+        alias: ["ecopay"]
+    value:
+        description: Displays the value an item or set of items.
+        permission: xencraft.eco.appraise
+        usage: "usage: /<command> (<ItemList>)"
+        alias: ["appraise", "ecovalue", "ecoappraise"]
+    basevalue:
+        description: Displays the base value of the item in your hand.
+        permission: xencraft.eco.appraise
+        usage: "usage: /<command>"
+        alias: ["ecobasevalue"]
+    grant:
+        description: Adds/removes money to/from a wallet.
+        permission: xencraft.eco.admin.managewallets
+        usage: "usage: /<command> <Wallet> <Amount> (<MoneySystem>)"
+        alias: ["ecogrant"]
+    setwalletcontents:
+        description: Sets the amount of money in a wallet.
+        permission: xencraft.eco.admin.managewallets
+        usage: "usage: /<command> <Wallet> <Amount> (<MoneySystem>)"
+        alias: ["ecosetwalletcontents"]
+    walletinfo:
+        description: Displays the contents of a wallet. The parameterless version lists all wallets.
+        permission: xencraft.eco.admin.managewallets
+        usage: |
+            usage:
+              /<command>
+              /<command> <Wallet> (<MoneySystem>)
+        alias: ["ecowalletinfo"]
+    newwallet:
+        description: Creates a new wallet.
+        permission: xencraft.eco.admin.managewallets
+        usage: "usage: /<command> <WalletName>"
+        alias: ["econewwallet"]
+    delwallet:
+        description: Deletes a wallet and all its contents. This cannot be reversed.
+        permission: xencraft.eco.admin.managewallets
+        usage: "usage: /<command> <WalletName>"
+        alias: ["deletewallet", "ecodelwallet", "ecodeletewallet"]
+        
