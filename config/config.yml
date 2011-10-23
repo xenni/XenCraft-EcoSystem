@@ -1,0 +1,35 @@
+moneysystems:
+    - factoryclass: me.xenni.plugins.xencraft.ecosystem.factories.CurrencySystemFactory
+      factoryconfig:
+          pluralname: Dollars
+          singularname: Dollar
+          symbol: "$"
+          symbolispostfix: no
+          fractionaldigits: 2
+      init:
+          includeinwallet: yes
+          initialplayerbalance: 25
+    - factoryclass: me.xenni.plugins.xencraft.ecosystem.builtin.factories.ItemStackMoneySystemFactory
+      factoryconfig:
+          name: Barter
+      init:
+          includeplayerinventory: yes
+          defaultplayerinventory: "[8 Torch, Map, 8 Cookie, Diamond_Pickaxe]"
+
+primarycurrencysystem: Dollars
+
+moneyconverters:
+    - factoryclass: me.xenni.plugins.xencraft.ecosystem.builtin.arbiters.factories.ItemStackToCurrencyConverterFactory
+      converts:
+          - from: Barter
+            to: Dollars
+
+currencyexchanger:
+    factoryclass: me.xenni.plugins.xencraft.ecosystem.builtin.arbiters.factories.CurrencyExchangerFactory
+    
+itemappraiser:
+    factoryclass: me.xenni.plugins.xencraft.ecosystem.builtin.arbiters.factories.BaseValueAppraiserFactory
+    factoryconfig:
+        currencyscale: 1.0
+
+maxtraderadius: 8

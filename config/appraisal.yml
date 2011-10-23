@@ -1,0 +1,501 @@
+appraisal:
+    - itemname: Stone
+      base: 0.25
+    - itemname: Dirt
+      base: 0.10
+    - itemname: Cobblestone
+      base: 0.20 
+    - itemname: Wood
+      base: 0.25
+    - itemname: Sapling
+      base: 2.50
+      databonuses:
+          - dataname: redwood
+            bonus: 0.20
+          - dataname: birch
+            bonus: 0.25
+    - itemname: Sand
+      base: 0.15
+    - itemname: Gravel
+      base: 0.17
+    - itemname: Gold_Ore
+      base: 49
+    - itemname: Iron_Ore
+      base: 19.25
+    - itemname: Coal_Ore
+      base: 0.23
+    - itemname: Log
+      base: 0.90
+    - itemname: Glass
+      base: 0.75
+    - itemname: Lapis_Ore
+      base: 14.50
+    - itemname: Lapis_Block
+      base: 27
+    - itemname: Sandstone
+      base: 0.60
+    - itemname: Note_Block
+      base: 5
+    - itemname: Wool
+      base: 0.30
+      databonuses:
+          - dataname: orange
+            bonus: 0.11
+          - dataname: magenta
+            bonus: 1.96
+          - dataname: lightblue
+            bonus: 1.85
+          - dataname: yellow
+            bonus: 0.05
+          - dataname: lime
+            bonus: 0.87
+          - dataname: pink
+            bonus: 0.30
+          - dataname: gray
+            bonus: 1.35
+          - dataname: silver
+            bonus: 1.50
+          - dataname: cyan
+            bonus: 2.02
+          - dataname: purple
+            bonus: 1.55
+          - dataname: blue
+            bonus: 1.50
+          - dataname: brown
+            bonus: 1
+          - dataname: green
+            bonus: 0.52
+          - dataname: red
+            bonus: 0.05
+          - dataname: black
+            bonus: 1.25
+    - itemname: Yellow_Flower
+      base: 0.10
+    - itemname: Red_Rose
+      base: 0.10
+    - itemname: Brown_Mushroom
+      base: 0.25
+    - itemname: Red_Mushroom
+      base: 0.25
+    - itemname: Gold_Block
+      base: 450
+    - itemname: Iron_Block
+      base: 180
+    - itemname: Double_Step
+      base: 0
+      databonuses:
+          - dataname: sandstone
+            bonus: 0.60
+          - dataname: stone
+            bonus: 0.25
+          - dataname: wood
+            bonus: 0.25
+          - dataname: cobblestone
+            bonus: 0.20
+    - itemname: Brick
+      base: 1.20
+    - itemname: TNT
+      base: 76
+    - itemname: Bookshelf
+      base: 11
+    - itemname: Mossy_Cobblestone
+      base: 0.50
+    - itemname: Obsidian
+      base: 5
+    - itemname: Torch
+      base: 0.10
+    - itemname: Wood_Stairs
+      base: 0.36
+    - itemname: Chest
+      base: 2.10
+    - itemname: Diamond_Ore
+      base: 99.75
+    - itemname: Diamond_Block
+      base: 900
+    - itemname: Workbench
+      base: 2.25
+    - itemname: Furnace
+      base: 1.60
+    - itemname: Ladder
+      base: 0.44
+    - itemname: Rails
+      base: 7.50
+    - itemname: Cobblestone_Stairs
+      base: 0.31
+    - itemname: Lever
+      base: 0.22
+    - itemname: Stone_Plate
+      base: 0.50
+    - itemname: Wood_Plate
+      base: 0.45
+    - itemname: Redstone_Ore
+      base: 1.20
+    - itemname: Redstone_Torch_On
+      base: 0.27
+    - itemname: Stone_Button
+      base: 0.50
+    - itemname: Snow_Block
+      base: 2
+    - itemname: Cactus
+      base: 1
+    - itemname: Clay
+      base: 1
+    - itemname: Jukebox
+      base: 102.50
+    - itemname: Fence
+      base: 0.80
+    - itemname: Pumpkin
+      base: 3.50
+    - itemname: Netherrack
+      base: 0.10
+    - itemname: Soul_Sand
+      base: 0.25
+    - itemname: Glowstone
+      base: 0.50
+    - itemname: Jack_O_Lantern
+      base: 15.15
+    - itemname: Iron_Spade
+      base: 20.50
+      durabilityscale: yes
+    - itemname: Iron_Pickaxe
+      base: 60.50
+      durabilityscale: yes
+    - itemname: Iron_Axe
+      base: 60.25
+      durabilityscale: yes
+    - itemname: Flint_And_Steel
+      base: 20.50
+      durabilityscale: yes
+    - itemname: Apple
+      base: 75
+    - itemname: Bow
+      base: 15.50
+    - itemname: Arrow
+      base: 1.75
+    - itemname: Coal
+      base: 0.25
+    - itemname: Diamond
+      base: 100
+    - itemname: Iron_Ingot
+      base: 20
+    - itemname: Gold_Ingot
+      base: 50
+    - itemname: Iron_Sword
+      base: 60.15
+      durabilityscale: yes
+    - itemname: Wood_Sword
+      base: 0.85
+      durabilityscale: yes
+    - itemname: Wood_Spade
+      base: 0.75
+      durabilityscale: yes
+    - itemname: Wood_Pickaxe
+      base: 1.50
+      durabilityscale: yes
+    - itemname: Wood_Axe
+      base: 1.40
+      durabilityscale: yes
+    - itemname: Stone_Sword
+      base: 0.90
+      durabilityscale: yes
+    - itemname: Stone_Spade
+      base: 0.80
+      durabilityscale: yes
+    - itemname: Stone_Pickaxe
+      base: 1.55
+      durabilityscale: yes
+    - itemname: Stone_Axe
+      base: 1.45
+      durabilityscale: yes
+    - itemname: Diamond_Sword
+      base: 300.20
+      durabilityscale: yes
+    - itemname: Diamond_Spade
+      base: 100.20
+      durabilityscale: yes
+    - itemname: Diamond_Pickaxe
+      base: 300.30
+      durabilityscale: yes
+    - itemname: Diamond_Axe
+      base: 300.10
+      durabilityscale: yes
+    - itemname: Stick
+      base: 0.13
+    - itemname: Bowl
+      base: 0.80
+    - itemname: Mushroom_Soup
+      base: 1.35
+    - itemname: Gold_Sword
+      durabilityscale: yes
+      base: 140.15
+    - itemname: Gold_Spade
+      durabilityscale: yes
+      base: 45.15
+    - itemname: Gold_Pickaxe
+      durabilityscale: yes
+      base: 135.25
+    - itemname: Gold_Axe
+      durabilityscale: yes
+      base: 133.25
+    - itemname: String
+      base: 5
+    - itemname: Feather
+      base: 1
+    - itemname: Sulphur
+      base: 15
+    - itemname: Wood_Hoe
+      durabilityscale: yes
+      base: 1
+    - itemname: Stone_Hoe
+      durabilityscale: yes
+      base: 1.10
+    - itemname: Iron_Hoe
+      durabilityscale: yes
+      base: 40.25
+    - itemname: Diamond_Hoe
+      durabilityscale: yes
+      base: 200.25
+    - itemname: Gold_Hoe
+      durabilityscale: yes
+      base: 90.25
+    - itemname: Seeds
+      base: 0.50
+    - itemname: Wheat
+      base: 1.50
+    - itemname: Bread
+      base: 4.75
+    - itemname: Leather_Helmet
+      base: 2
+      durabilityscale: yes
+    - itemname: Leather_ChestPlate
+      base: 2.25
+      durabilityscale: yes
+    - itemname: Leather_Leggings
+      base: 2
+      durabilityscale: yes
+    - itemname: Leather_Boots
+      base: 1.10
+      durabilityscale: yes
+    - itemname: Iron_Helmet
+      base: 140.25
+      durabilityscale: yes
+    - itemname: Iron_ChestPlate
+      base: 160.25
+      durabilityscale: yes
+    - itemname: Iron_Leggings
+      base: 140.25
+      durabilityscale: yes
+    - itemname: Iron_Boots
+      base: 80.25
+      durabilityscale: yes
+    - itemname: Diamond_Helmet
+      base: 700.25
+      durabilityscale: yes
+    - itemname: Diamond_Chestplate
+      base: 800.25
+      durabilityscale: yes
+    - itemname: Diamond_Leggings
+      base: 700.25
+      durabilityscale: yes
+    - itemname: Diamond_Boots
+      base: 400.25
+      durabilityscale: yes
+    - itemname: Gold_Helmet
+      base: 300
+      durabilityscale: yes
+    - itemname: Gold_Chestplate
+      base: 350
+      durabilityscale: yes
+    - itemname: Gold_Leggings
+      base: 300
+      durabilityscale: yes
+    - itemname: Gold_Boots
+      base: 150
+      durabilityscale: yes
+    - itemname: Flint
+      base: 0.25
+    - itemname: Pork
+      base: 0.50
+    - itemname: Grilled_Pork
+      base: 0.55
+    - itemname: Painting
+      base: 2.30
+    - itemname: Golden_Apple      
+      base: 7280
+    - itemname: Sign
+      base: 1.75
+    - itemname: Wood_Door
+      base: 1.50
+    - itemname: Bucket
+      base: 60
+    - itemname: Water_Bucket
+      base: 60.50
+    - itemname: Lava_Bucket
+      base: 61.75
+    - itemname: Minecart
+      base: 95
+    - itemname: Saddle
+      base: 75
+    - itemname: Iron_Door
+      base: 120
+    - itemname: Redstone
+      base: 0.25
+    - itemname: Snow_Ball
+      base: 0.25
+    - itemname: Boat
+      base: 1.20
+    - itemname: Leather
+      base: 0.25
+    - itemname: Milk_Bucket
+      base: 61.10
+    - itemname: Clay_Brick
+      base: 0.30
+    - itemname: Clay_Ball
+      base: 0.25
+    - itemname: Sugar_Cane
+      base: 2
+    - itemname: Paper
+      base: 2
+    - itemname: Book
+      base: 6
+    - itemname: Slime_Ball
+      base: 10
+    - itemname: Storage_Minecart
+      base: 97.10
+    - itemname: Powered_Minecart
+      base: 96.60
+    - itemname: Egg
+      base: 0.40
+    - itemname: Compass
+      base: 80.50
+    - itemname: Fishing_Rod
+      base: 15.40
+      durabilityscale: yes
+    - itemname: Watch
+      base: 350
+    - itemname: Glowstone_Dust
+      base: 0.25
+    - itemname: Raw_Fish
+      base: 1.25
+    - itemname: Cooked_Fish
+      base: 1.30
+    - itemname: Ink_Sack
+      base: 0
+      databonuses:
+          - dataname: white
+            bonus: 0.70
+          - dataname: orange
+            bonus: 0.22
+          - dataname: magenta
+            bonus: 3.92
+          - dataname: lightblue
+            bonus: 3.70
+          - dataname: yellow
+            bonus: 0.11
+          - dataname: lime
+            bonus: 1.75
+          - dataname: pink
+            bonus: 0.81
+          - dataname: gray
+            bonus: 5.70
+          - dataname: lightgray
+            bonus: 6.40
+          - dataname: cyan
+            bonus: 4.05
+          - dataname: purple
+            bonus: 3.11
+          - dataname: blue
+            bonus: 3
+          - dataname: brown
+            bonus: 2.50
+          - dataname: green
+            bonus: 1.05
+          - dataname: red
+            bonus: 0.11
+          - dataname: black
+            bonus: 5
+    - itemname: Bone
+      base: 0.75
+    - itemname: Sugar
+      base: 2
+    - itemname: Cake
+      base: 12.20
+    - itemname: Bed
+      base: 1.55
+    - itemname: Diode
+      base: 1.55
+    - itemname: Cookie
+      base: 0.57
+    - itemname: Gold_Record
+      base: 250
+    - itemname: Green_Record
+      base: 325
+    - itemname: Piston_Base
+      base: 22
+    - itemname: Piston_Sticky_Base
+      base: 32
+    - itemname: Shears
+      base: 40
+      durabilityscale: yes
+    - itemname: Leaves
+      base: 0.01
+    - itemname: Melon
+      base: 4.05
+    - itemname: Pumpkin_Seeds
+      base: 1.25
+    - itemname: Melon_Seeds
+      base: 1.15
+    - itemname: Ender_Pearl
+      base: 25.00
+    - itemname: Melon_Slice
+      base: 0.45
+    - itemname: Raw_Chicken
+      base: 0.35
+    - itemname: Cooked_Chicken
+      base: 0.95
+    - itemname: Rotten_Flesh
+      base: 0.02
+    - itemname: Eye_of_Ender
+      base: 27.50
+    - itemname: Blaze_Rod
+      base: 1.25
+    - itemname: Blaze_Powder
+      base: 2.50
+    - itemname: Ghast_Tear
+      base: 3.25
+    - itemname: Glass_Bottle
+      base: 0.75
+      databonuses:
+          - dataname: full
+            bonus: 0.05
+    - itemname: Glistering_Melon
+      base: 6.00
+    - itemname: Gold_Nugget
+      base: 5.55
+    - itemname: Magma_Cream
+      base: 2.50
+    - itemname: Nether_Wart
+      base: 0.65
+    - itemname: Spider_Eye
+      base: 0.25
+    - itemname: Fermented_Spider_Eye
+      base: 2.50
+    - itemname: Glass_Pane
+      base: 0.28
+    - itemname: Iron_Bars
+      base: 7.50
+    - itemname: Stone_Brick
+      base: 0.25
+      databonuses:
+          - dataname: mossy
+            bonus: 0.05
+          - dataname: cracked
+            bonus: -0.05
+    - itemname: Stone_Brick_Stairs
+      base: 0.37
+    - itemname: Nether_Brick
+      base: 0.35
+    - itemname: Nether_Brick_Stairs
+      base: 0.52
+    - itemname: Vines
+      base: 0.02
